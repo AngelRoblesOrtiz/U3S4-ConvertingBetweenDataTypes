@@ -2,7 +2,10 @@ public class Casting01 {
     public static void main(String[] args) {
         //Declare and initialize a byte with a value of 128
         //Observe NetBeans' complaint
-
+        //byte firstByte = 128;
+        short firstShort = 128;
+        byte secondByte = (byte) firstShort;
+        System.out.println(secondByte);
         
         //Declare and initialize a short with a value of 128
         //Create a print statement that casts this short to a byte
